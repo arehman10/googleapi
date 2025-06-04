@@ -136,7 +136,7 @@ class PlacesV1:
 # ═════════════════════  STREAMLIT UI  ══════════════════════════════
 
 st.set_page_config(page_title="Google Places Enricher", layout="wide")
-st.title("🗺️ Google Places (New) Data Enricher")
+st.title("🗺️ Google Places Data Enricher")
 
 # ── sidebar ---------------------------------------------------------
 with st.sidebar:
