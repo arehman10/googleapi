@@ -3,6 +3,7 @@
 """
 Streamlined version
 ------------------
+
 ✓ Removed **Nearby Search** – only **Text Search** (with automatic second‑pass
   *Place Details*) and **Place Details** endpoints remain.
 ✓ Second‑pass Place‑Details now *always* runs for every Text‑Search hit.
