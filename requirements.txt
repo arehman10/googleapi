@@ -6,4 +6,5 @@ swiglpk
 streamlit
 math
 io
+requests
 matplotlib.colors
