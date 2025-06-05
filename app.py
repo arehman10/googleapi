@@ -187,7 +187,7 @@ with st.sidebar:
 
         # dummy defaults so code outside the sidebar always finds variables
         MAX_RES  = 1
-        RANK     = "POPULARITY"
+        RANK     = "DISTANCE"
         BIAS     = ""
         RESTRICT = ""
         LANG     = ""
