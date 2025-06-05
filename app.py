@@ -15,7 +15,6 @@ from __future__ import annotations
 import io, os, re, time, json, requests, urllib.parse as urlp
 from typing import List
 
-
 import pandas as pd
 import streamlit as st
 import folium
