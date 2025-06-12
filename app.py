@@ -151,6 +151,7 @@ with st.sidebar:
         "places.id",
         "places.displayName",
         "places.formattedAddress",
+        "places.addressComponents",
         "places.websiteUri",
         "places.businessStatus",
         "places.location",
