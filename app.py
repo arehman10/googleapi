@@ -300,7 +300,7 @@ def enrich(df: pd.DataFrame) -> pd.DataFrame:
         columns={"index": "__src_row"}              # unique key
     )
 
-    full = base.merge(flat, on="__src_row", how="right")
+    full = base.merge(flat, on="__src_row", how="outer")
 
     # optional: keep original order and tidy up
     full.sort_values("__src_row", inplace=True)
